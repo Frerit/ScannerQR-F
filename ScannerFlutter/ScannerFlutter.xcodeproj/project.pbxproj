@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EA29B8875A1DC1BF97B41F /* Pods_ScannerFlutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B885EF909C3862321EE599 /* Pods_ScannerFlutter.framework */; };
+		616B84C3E996B6CC3B62058E /* Pods_ScannerFlutterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5310F2F6BAB1213B04BE203 /* Pods_ScannerFlutterTests.framework */; };
+		9C2C821923D777A83E3C11B6 /* Pods_ScannerFlutter_ScannerFlutterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6634BAD061835C25D63D34 /* Pods_ScannerFlutter_ScannerFlutterUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B90D29292D96E66200FB888C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90D290B2D96E66000FB888C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90D29122D96E66000FB888C;
+			remoteInfo = ScannerFlutter;
+		};
+		B90D29332D96E66200FB888C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90D290B2D96E66000FB888C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90D29122D96E66000FB888C;
+			remoteInfo = ScannerFlutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B8FA4BB10D5FF96DD2BB71F /* Pods-ScannerFlutterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerFlutterTests.release.xcconfig"; path = "Target Support Files/Pods-ScannerFlutterTests/Pods-ScannerFlutterTests.release.xcconfig"; sourceTree = "<group>"; };
+		29B08FC6AE7649410C4609C7 /* Pods-ScannerFlutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerFlutter.debug.xcconfig"; path = "Target Support Files/Pods-ScannerFlutter/Pods-ScannerFlutter.debug.xcconfig"; sourceTree = "<group>"; };
+		59B885EF909C3862321EE599 /* Pods_ScannerFlutter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerFlutter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8598FCFEB02BB160E2AAFB87 /* Pods-ScannerFlutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerFlutter.release.xcconfig"; path = "Target Support Files/Pods-ScannerFlutter/Pods-ScannerFlutter.release.xcconfig"; sourceTree = "<group>"; };
+		B90D29132D96E66000FB888C /* ScannerFlutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerFlutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90D29282D96E66200FB888C /* ScannerFlutterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerFlutterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90D29322D96E66200FB888C /* ScannerFlutterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerFlutterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17E16EC93401C6B79AA0843 /* Pods-ScannerFlutter-ScannerFlutterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerFlutter-ScannerFlutterUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScannerFlutter-ScannerFlutterUITests/Pods-ScannerFlutter-ScannerFlutterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB6634BAD061835C25D63D34 /* Pods_ScannerFlutter_ScannerFlutterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerFlutter_ScannerFlutterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAF477EC93087B9BD388BBF /* Pods-ScannerFlutterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerFlutterTests.debug.xcconfig"; path = "Target Support Files/Pods-ScannerFlutterTests/Pods-ScannerFlutterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA19729668818A479747F11 /* Pods-ScannerFlutter-ScannerFlutterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScannerFlutter-ScannerFlutterUITests.release.xcconfig"; path = "Target Support Files/Pods-ScannerFlutter-ScannerFlutterUITests/Pods-ScannerFlutter-ScannerFlutterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5310F2F6BAB1213B04BE203 /* Pods_ScannerFlutterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScannerFlutterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B90D295A2D96E86600FB888C /* Exceptions for "ScannerFlutter" folder in "ScannerFlutter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B90D29122D96E66000FB888C /* ScannerFlutter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B90D29152D96E66000FB888C /* ScannerFlutter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B90D295A2D96E86600FB888C /* Exceptions for "ScannerFlutter" folder in "ScannerFlutter" target */,
+			);
+			path = ScannerFlutter;
+			sourceTree = "<group>";
+		};
+		B90D292B2D96E66200FB888C /* ScannerFlutterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScannerFlutterTests;
+			sourceTree = "<group>";
+		};
+		B90D29352D96E66200FB888C /* ScannerFlutterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScannerFlutterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90D29102D96E66000FB888C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EA29B8875A1DC1BF97B41F /* Pods_ScannerFlutter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90D29252D96E66200FB888C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616B84C3E996B6CC3B62058E /* Pods_ScannerFlutterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90D292F2D96E66200FB888C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2C821923D777A83E3C11B6 /* Pods_ScannerFlutter_ScannerFlutterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261618911B9D7CA7C2D6528C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29B08FC6AE7649410C4609C7 /* Pods-ScannerFlutter.debug.xcconfig */,
+				8598FCFEB02BB160E2AAFB87 /* Pods-ScannerFlutter.release.xcconfig */,
+				C17E16EC93401C6B79AA0843 /* Pods-ScannerFlutter-ScannerFlutterUITests.debug.xcconfig */,
+				EDA19729668818A479747F11 /* Pods-ScannerFlutter-ScannerFlutterUITests.release.xcconfig */,
+				DBAF477EC93087B9BD388BBF /* Pods-ScannerFlutterTests.debug.xcconfig */,
+				0B8FA4BB10D5FF96DD2BB71F /* Pods-ScannerFlutterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B646E40791EB5B23D510F33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59B885EF909C3862321EE599 /* Pods_ScannerFlutter.framework */,
+				CB6634BAD061835C25D63D34 /* Pods_ScannerFlutter_ScannerFlutterUITests.framework */,
+				F5310F2F6BAB1213B04BE203 /* Pods_ScannerFlutterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B90D290A2D96E66000FB888C = {
+			isa = PBXGroup;
+			children = (
+				B90D29152D96E66000FB888C /* ScannerFlutter */,
+				B90D292B2D96E66200FB888C /* ScannerFlutterTests */,
+				B90D29352D96E66200FB888C /* ScannerFlutterUITests */,
+				B90D29142D96E66000FB888C /* Products */,
+				261618911B9D7CA7C2D6528C /* Pods */,
+				B646E40791EB5B23D510F33E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B90D29142D96E66000FB888C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90D29132D96E66000FB888C /* ScannerFlutter.app */,
+				B90D29282D96E66200FB888C /* ScannerFlutterTests.xctest */,
+				B90D29322D96E66200FB888C /* ScannerFlutterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90D29122D96E66000FB888C /* ScannerFlutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90D293C2D96E66200FB888C /* Build configuration list for PBXNativeTarget "ScannerFlutter" */;
+			buildPhases = (
+				20666FC91F80897DE386F873 /* [CP] Check Pods Manifest.lock */,
+				CB98D9147C29E9CCCF018C96 /* [CP-User] Run Flutter Build scanner_flutter Script */,
+				B90D290F2D96E66000FB888C /* Sources */,
+				B90D29102D96E66000FB888C /* Frameworks */,
+				B90D29112D96E66000FB888C /* Resources */,
+				665060B9E27EC0159E25FE4E /* [CP-User] Embed Flutter Build scanner_flutter Script */,
+				71E1617C9CAB7F9D41361866 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B90D29152D96E66000FB888C /* ScannerFlutter */,
+			);
+			name = ScannerFlutter;
+			productName = ScannerFlutter;
+			productReference = B90D29132D96E66000FB888C /* ScannerFlutter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B90D29272D96E66200FB888C /* ScannerFlutterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90D293F2D96E66200FB888C /* Build configuration list for PBXNativeTarget "ScannerFlutterTests" */;
+			buildPhases = (
+				7004B44117979E23286E7523 /* [CP] Check Pods Manifest.lock */,
+				B90D29242D96E66200FB888C /* Sources */,
+				B90D29252D96E66200FB888C /* Frameworks */,
+				B90D29262D96E66200FB888C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90D292A2D96E66200FB888C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B90D292B2D96E66200FB888C /* ScannerFlutterTests */,
+			);
+			name = ScannerFlutterTests;
+			productName = ScannerFlutterTests;
+			productReference = B90D29282D96E66200FB888C /* ScannerFlutterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B90D29312D96E66200FB888C /* ScannerFlutterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90D29422D96E66200FB888C /* Build configuration list for PBXNativeTarget "ScannerFlutterUITests" */;
+			buildPhases = (
+				69C706CA405A8A9DDE3089CA /* [CP] Check Pods Manifest.lock */,
+				B90D292E2D96E66200FB888C /* Sources */,
+				B90D292F2D96E66200FB888C /* Frameworks */,
+				B90D29302D96E66200FB888C /* Resources */,
+				F988CC24814615FDAE91F238 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90D29342D96E66200FB888C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B90D29352D96E66200FB888C /* ScannerFlutterUITests */,
+			);
+			name = ScannerFlutterUITests;
+			productName = ScannerFlutterUITests;
+			productReference = B90D29322D96E66200FB888C /* ScannerFlutterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90D290B2D96E66000FB888C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B90D29122D96E66000FB888C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B90D29272D96E66200FB888C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B90D29122D96E66000FB888C;
+					};
+					B90D29312D96E66200FB888C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B90D29122D96E66000FB888C;
+					};
+				};
+			};
+			buildConfigurationList = B90D290E2D96E66000FB888C /* Build configuration list for PBXProject "ScannerFlutter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B90D290A2D96E66000FB888C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B90D29142D96E66000FB888C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90D29122D96E66000FB888C /* ScannerFlutter */,
+				B90D29272D96E66200FB888C /* ScannerFlutterTests */,
+				B90D29312D96E66200FB888C /* ScannerFlutterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90D29112D96E66000FB888C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90D29262D96E66200FB888C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90D29302D96E66200FB888C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20666FC91F80897DE386F873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScannerFlutter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665060B9E27EC0159E25FE4E /* [CP-User] Embed Flutter Build scanner_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build scanner_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../scanner_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		69C706CA405A8A9DDE3089CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScannerFlutter-ScannerFlutterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7004B44117979E23286E7523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScannerFlutterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71E1617C9CAB7F9D41361866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScannerFlutter/Pods-ScannerFlutter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScannerFlutter/Pods-ScannerFlutter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScannerFlutter/Pods-ScannerFlutter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB98D9147C29E9CCCF018C96 /* [CP-User] Run Flutter Build scanner_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build scanner_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../scanner_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		F988CC24814615FDAE91F238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScannerFlutter-ScannerFlutterUITests/Pods-ScannerFlutter-ScannerFlutterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScannerFlutter-ScannerFlutterUITests/Pods-ScannerFlutter-ScannerFlutterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScannerFlutter-ScannerFlutterUITests/Pods-ScannerFlutter-ScannerFlutterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90D290F2D96E66000FB888C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90D29242D96E66200FB888C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90D292E2D96E66200FB888C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B90D292A2D96E66200FB888C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90D29122D96E66000FB888C /* ScannerFlutter */;
+			targetProxy = B90D29292D96E66200FB888C /* PBXContainerItemProxy */;
+		};
+		B90D29342D96E66200FB888C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90D29122D96E66000FB888C /* ScannerFlutter */;
+			targetProxy = B90D29332D96E66200FB888C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B90D293A2D96E66200FB888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B90D293B2D96E66200FB888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90D293D2D96E66200FB888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B08FC6AE7649410C4609C7 /* Pods-ScannerFlutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScannerFlutter/Preview Content\"";
+				DEVELOPMENT_TEAM = T6FS3Y77BK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScannerFlutter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requisitos para autenticacion";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Requisitos para autenticacion";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = Flutter;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.co.ScannerFlutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B90D293E2D96E66200FB888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8598FCFEB02BB160E2AAFB87 /* Pods-ScannerFlutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScannerFlutter/Preview Content\"";
+				DEVELOPMENT_TEAM = T6FS3Y77BK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScannerFlutter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requisitos para autenticacion";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Requisitos para autenticacion";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = Flutter;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.co.ScannerFlutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B90D29402D96E66200FB888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBAF477EC93087B9BD388BBF /* Pods-ScannerFlutterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6FS3Y77BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.co.ScannerFlutterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerFlutter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScannerFlutter";
+			};
+			name = Debug;
+		};
+		B90D29412D96E66200FB888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8FA4BB10D5FF96DD2BB71F /* Pods-ScannerFlutterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6FS3Y77BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.co.ScannerFlutterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerFlutter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScannerFlutter";
+			};
+			name = Release;
+		};
+		B90D29432D96E66200FB888C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17E16EC93401C6B79AA0843 /* Pods-ScannerFlutter-ScannerFlutterUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6FS3Y77BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.co.ScannerFlutterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScannerFlutter;
+			};
+			name = Debug;
+		};
+		B90D29442D96E66200FB888C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA19729668818A479747F11 /* Pods-ScannerFlutter-ScannerFlutterUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6FS3Y77BK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.co.ScannerFlutterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScannerFlutter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90D290E2D96E66000FB888C /* Build configuration list for PBXProject "ScannerFlutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90D293A2D96E66200FB888C /* Debug */,
+				B90D293B2D96E66200FB888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90D293C2D96E66200FB888C /* Build configuration list for PBXNativeTarget "ScannerFlutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90D293D2D96E66200FB888C /* Debug */,
+				B90D293E2D96E66200FB888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90D293F2D96E66200FB888C /* Build configuration list for PBXNativeTarget "ScannerFlutterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90D29402D96E66200FB888C /* Debug */,
+				B90D29412D96E66200FB888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90D29422D96E66200FB888C /* Build configuration list for PBXNativeTarget "ScannerFlutterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90D29432D96E66200FB888C /* Debug */,
+				B90D29442D96E66200FB888C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B90D290B2D96E66000FB888C /* Project object */;
+}
