@@ -1,12 +1,21 @@
 # Proyecto Scanner Flutter
 
-Este proyecto es una aplicación de escaneo de códigos QR construida con Flutter e integrada con un módulo de iOS utilizando FlutterChannels. A continuación, se detallan los pasos para configurar y ejecutar el proyecto en un entorno de desarrollo iOS.
+Este proyecto es una aplicación de escaneo de códigos QR construida con IOS y Flutter e integrada con un módulo utilizando FlutterChannels. A continuación, detallo los pasos para configurar y ejecutar el proyecto en un entorno de desarrollo iOS.
+
+# Comunicación entre Flutter e iOS
+El proyecto utiliza FlutterMethodChannel para la comunicación entre Flutter y el código nativo de iOS. El canal está configurado en el archivo ScannerView.swift y permite enviar y recibir mensajes entre ambos lados.
+
+# Comunicación:
+Desde Flutter a iOS: Flutter envía un mensaje al canal com.example.scanner_flutter/native_scanner_bridge.
+Desde iOS a Flutter: iOS responde al mensaje o invoca un método en Flutter utilizando el mismo canal.
 
 ## Requisitos previos
 
-- **Flutter**: Versión mínima recomendada: `3.10.0`.
+- **Flutter**: Versión mínima recomendada: `3.29.0`.
+- **Dart**: Version `3.7.0`.
 - **Xcode**: Versión mínima recomendada: `14.0`.
 - **Cocoapods**: Asegúrate de tener instalado `Cocoapods` para manejar las dependencias de iOS.
+- **macOS**: Versión 12.0 o superior (Monterey o más reciente).
 
 ## Pasos para ejecutar el proyecto
 
@@ -26,18 +35,18 @@ Este proyecto es una aplicación de escaneo de códigos QR construida con Flutte
    ```
 
 3. **Configurar el proyecto de iOS**  
-   Navega al directorio `ios` dentro del proyecto y ejecuta `pod install` para instalar las dependencias de iOS:
+   Navega al directorio `ScannerFlutter` dentro del proyecto y ejecuta `pod install` para instalar las dependencias de iOS:
 
    ```bash
-   cd ios
+   cd ScannerFlutter
    pod install
    ```
 
 4. **Abrir el proyecto en Xcode**  
-   Abre el archivo `.xcworkspace` generado en el directorio `ios` con Xcode:
+   Abre el archivo `ScannerFlutter.xcworkspace` con Xcode:
 
    ```bash
-   open Runner.xcworkspace
+   open ScannerFlutter.xcworkspace
    ```
 
 5. **Configurar un dispositivo o simulador**  
@@ -53,7 +62,7 @@ Este proyecto es una aplicación de escaneo de códigos QR construida con Flutte
 
 ## Publicación en TestFlight
 
-Aunque el proyecto puede ser preparado para TestFlight siguiendo las recomendaciones de Apple, actualmente no se puede subir debido a la falta de una cuenta de desarrollador de Apple. A continuación, se describen los pasos para preparar el proyecto para TestFlight:
+Aunque el proyecto puede ser preparado para TestFlight siguiendo las recomendaciones de la prueba, actualmente no puedo subir debido a la falta de una cuenta de desarrollador de Apple. A continuación, se describen los pasos para preparar el proyecto para TestFlight en caso de requerirlo:
 
 1. **Configuración de Fastlane**  
    Fastlane se utiliza para automatizar el proceso de construcción y publicación. Asegúrate de que `Fastlane` esté instalado:
@@ -70,17 +79,11 @@ Aunque el proyecto puede ser preparado para TestFlight siguiendo las recomendaci
 
    Ejemplo de configuración de Fastlane:
 
-   ```bash
-   fastlane init
-   fastlane beta
+   ```bash 
+   fastlane release
    ```
 
 3. **Finalización de la prueba**  
-   Una vez que la aplicación esté en TestFlight, los testers pueden descargarla y probarla. Asegúrate de seguir las recomendaciones de Apple para pruebas internas y externas.
-
-## Recomendaciones finales
-
-- **Pruebas locales**: Asegúrate de probar exhaustivamente la aplicación en dispositivos físicos antes de intentar subirla a TestFlight.
-- **Documentación**: Mantén actualizada la documentación del proyecto para facilitar futuras integraciones o modificaciones.
+   Una vez que termine compilacion la aplicación estara en TestFlight. 
 
 Si tienes alguna pregunta o problema, no dudes en abrir un issue en el repositorio.
